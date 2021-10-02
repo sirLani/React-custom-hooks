@@ -3,7 +3,7 @@
 // http://localhost:3000/isolated/final/04.extra-2.js
 
 import * as React from 'react'
-import {useLocalStorageState} from '../utils'
+import { useLocalStorageState } from '../utils/useLocalStorage'
 
 function Board() {
   const [squares, setSquares] = useLocalStorageState(

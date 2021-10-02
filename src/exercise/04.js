@@ -29,7 +29,7 @@ function Board() {
     //
     // 🐨 set the squares to your copy
 
-    if(winner || squares(square)){
+    if(winner || squares[square]){
       return
     }
 
